@@ -1,6 +1,7 @@
 import requests
 import matplotlib.pyplot as plt
 from collections import defaultdict
+import seaborn as sns
 import numpy as np 
 
 def get_taux_de_regularite(train="intercites", departure=None, arrival=None):

@@ -224,9 +224,9 @@ if __name__ == "__main__":
     # Calculate step length
     step_length = calculate_step_length(height)
     
-    # 49 rue Lecourbe, Paris to Hôpital Louis-Mourier, Colombes
-    from_lat, from_lon = 48.843890, 2.306979 # 49 rue Lecourbe, Paris
-    to_lat, to_lon = 48.925073, 2.236467      # Hôpital Louis-Mourier, Colombes
+    # Bastille to trocadero
+    from_lat, from_lon = 48.853288, 2.368622
+    to_lat, to_lon = 48.863146, 2.286460      # Hôpital Louis-Mourier, Colombes
     
     try:
         result = get_itinerary(

@@ -301,9 +301,9 @@ if __name__ == "__main__":
     print(f"Step length: {step_length:.2f} meters")
     print(f"Search radius: {search_radius:.2f} meters")
     
-    # 49 rue Lecourbe, Paris to Hôpital Louis-Mourier, Colombes
-    from_lat, from_lon = 48.843890, 2.306979
-    to_lat, to_lon = 48.925073, 2.236467
+    # Bastille to trocadero
+    from_lat, from_lon = 48.853288, 2.368622
+    to_lat, to_lon = 48.863146, 2.286460
     
     try:
         # Find stations within radius of both points
